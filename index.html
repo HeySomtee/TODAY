@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODAY GAME</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="/styles.css"> -->
+    <link rel="stylesheet" href="/mobile.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+    </style>
+
+</head>
+<body>
+    <div id="root">
+        <div id="flip-grid">
+            <div class="flipbook" id="flipbook">
+                <iframe src="https://player.flipsnack.com?hash=RUNBOUU2Q0M1QTgremowN2wwM3RrNQ==" width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen allow="autoplay; clipboard-read; clipboard-write"></iframe>    
+            </div>
+        </div>           
+        
+        <div class="header">
+            <audio controls id="audioPlayer" src="/Ed_Sheeran_I_Don_t_Care_(thinkNews.com.ng).mp3"></audio>
+            <div class="header-head">
+                <p>Explore</p>
+            </div>
+        </div>
+        
+        <div class="left-area">
+            <div>
+                <div class="task-bar">
+                    <div class="task-head">
+                        <div class="orange" style="background-color: orange;"></div>
+                        <div class="yellow" style="background-color: yellow;"></div>
+                        <div class="lemon" style="background-color: yellowgreen;"></div>
+                    </div>
+
+                    <div class="task-middle">
+                        <div class="tasks" id="task1">
+                            <i class="fa-solid fa-music"></i>
+                        </div>
+                        <div class="tasks" id="task2">
+                            <i class="fa-solid fa-image" id="fa-image"></i>
+                        </div>
+                        <div class="tasks" id="task3">
+                            <i class="fa-solid fa-book-open"></i>
+                        </div>
+                        <!-- <div class="tasks">
+                            <i class="fa-solid fa-music"></i>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="option-bar">
+                    <div class="option-head">
+                        <p>Explore</p>
+                    </div>
+
+                    <div class="option-middle" id="option-middle">
+                        <div class="songs" id="title1">
+                            <p id="playText"></p>
+                            <h4>Dandelions</h4>
+                            <span>Ruth-B</span>
+                            
+                        </div>
+                        <div class="songs" id="title2">
+                            <p id="playText2"></p>
+                            <h4>Let_You_Down</h4>
+                            <span>NF</span>
+                        </div>
+                        <div class="songs" id="title3">
+                            <p id="playText3"></p>
+                            <h4>I_Don_t_Care</h4>
+                            <span>Ed_Sheeran</span>
+                        </div>
+                        <div class="songs" id="title4">
+                            <p id="playText4"></p>
+                            <h4>Heartbreak-Hotel</h4>
+                            <span>Elvis-Presley</span>
+                        </div>
+                        <div class="songs" id="title5">
+                            <p id="playText5"></p>
+                            <h4>Don-t-Believe-The-Hype</h4>
+                            <span>Polo-G</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="audio-bar">
+                <div>
+                    <img id="gif" src="https://www.upshow.tv/wp-content/uploads/2022/08/Waveform.gif" alt="">
+                </div>
+                
+                <div id="audio-files">
+                    <i class="fa-solid fa-compact-disc" id="disk" title="select song"></i>
+                </div>
+            </div>
+            
+            <div class="controls-bar">
+                <div id="music-name" style="font-family: 'Dancing Script', cursive;">
+                    Hello
+                </div>
+
+                <div id="control-btn">
+                    <i class="fa-solid fa-backward"></i>
+                    <i style="color: aqua;" id="faPlay" class="fa-solid fa-play"></i>
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+
+                <div id="vol">
+                    <i class="fa-solid fa-minus"></i>
+                    <i style="color: aqua;" class="fa-solid fa-volume-off"></i>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="middle-area" id="middle-area">
+            <div >
+                <img id="gifm" src="https://www.upshow.tv/wp-content/uploads/2022/08/Waveform.gif" alt="">
+            </div>
+           <img class="picc" src="/TODAY3-removebg-preview.png" alt="">
+            <!-- <img class="piccc" src="/SMSlogo.png" alt=""> -->
+            <div class="forMobileOnly">
+                <div class="utility">
+                    <div id="i">
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </div>
+                    <div class="util-body" id="util-body">
+                        <!-- <span>SOngs</span> -->
+                       
+                       <div id="songg-areaa">
+                        <!-- <div class="songs ss">
+                            <h3>songs</h3> <h3>sneakpeeks</h3> <h3>Story</h3>
+                        </div> -->
+
+                        <div id="cc">
+                            <div class="flipbook" id="flipbook">
+                                <iframe src="https://player.flipsnack.com?hash=RUNBOUU2Q0M1QTgremowN2wwM3RrNQ==" width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen allow="autoplay; clipboard-read; clipboard-write"></iframe>                    
+                            </div>
+                        </div>
+                        
+                       <div id="ccc">
+                        <div class="songs" id="title1m">
+                            <p id="playTextm"></p>
+                            <h4>Dandelions</h4>
+                            <span>Ruth-B</span>
+                            
+                        </div>
+                        <div class="songs" id="title2m">
+                            <p id="playText2m"></p>
+                            <h4>Let_You_Down</h4>
+                            <span>NF</span>
+                        </div>
+                        <div class="songs" id="title3m">
+                            <p id="playText3m"></p>
+                            <h4>I_Don_t_Care</h4>
+                            <span>Ed_Sheeran</span>
+                        </div>
+                        <div class="songs" id="title4m">
+                            <p id="playText4m"></p>
+                            <h4>Heartbreak-Hotel</h4>
+                            <span>Elvis-Presley</span>
+                        </div>
+                        <div class="songs" id="title5m">
+                            <p id="playText5m"></p>
+                            <h4>Don-t-Believe-The-Hype</h4>
+                            <span>Polo-G</span>
+                        </div>
+                       </div>
+
+                       </div>
+
+                        <div id="picture-place">
+                            <div id="sneakArea-m" class="sneak-area">
+                                <div class="inner-sneakArea">
+                                    <div id="x11" class="x11">
+                                        <i class="fa-solid fa-close"></i>
+                                    </div>
+                                    <div class="slider">
+                      
+                                    <!-- <a href="#slide-11">1</a>
+                                    <a href="#slide-21">2</a>
+                                    <a href="#slide-31">3</a>
+                                    <a href="#slide-41">4</a>
+                                    <a href="#slide-51">5</a> -->
+                                    <!-- <a href="#slide-6">6</a>
+                                    <a href="#slide-7">7</a> 
+                                    <a href="#slide-8">8</a> -->
+                                  
+                                    <div class="slides">
+                                      <div id="slide-11">
+                                        <img class="imageS" src="/TODAY7.jpeg" alt="">
+                                      </div>
+                                      <div id="slide-21">
+                                        <img class="imageS" src="/TODAY2.jpeg" alt="">
+                                      </div>
+                                      <div id="slide-31">
+                                        <img class="imageS" src="/TODAY3.jpeg" alt="">
+                                      </div>
+                                      <div id="slide-41">
+                                        <img class="imageS" src="/TODAY4.jpeg" alt="">
+                                      </div>
+                                      <div id="slide-51">
+                                        <img class="imageS" src="/TODAY5.jpeg" alt="">
+                                      </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="banner-main">
+                    <div class="banner-main">
+                        <div id="banner">
+                            <img src="/TODAYname.png" alt="">
+                        
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="mobile-body">
+                            
+                    <div class="big-left" id="big-left">
+                        <div class="menu">...</div>
+                        
+                        <div class="big-round" id="big-round">
+                            <div class="round-box mrb1">
+                                <img id="music-mode" src="/TODAY8.png" alt="">
+                                music
+                            </div>
+                            <div class="round-box mrb2" >
+                                <img id="story-mode" src="/TODAY7.jpeg" alt="">
+                                flipbook
+                            </div>
+                            <div class="round-box mrb3">
+                                <img id="sneakp-mode" src="/TODAY6.jpeg" alt="">
+                                sneakpeeks
+                            </div>
+                            <br> <br> <br>
+                            <div style="position: absolute; bottom: 0; display: flex; place-content: center; width: 50vw; color: rgb(110, 252, 44);" >
+                                <h4>About, Team, Story...</h4>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                    <div class="mobile-right">
+                        <div class="right-top"></div>
+                        <div class="right-bottom"></div>
+                    </div>
+                </div>
+
+                
+            </div>
+
+
+
+            <div id="over">
+                <!-- <div id="banner">
+                    <img class="ximage" src="/1500x500.jpeg" alt="">
+            
+                </div> -->
+
+              <div class="topp">
+               <div class="opa1" id="opa1">
+                <div class="box" id="box"> 
+                    <div class="blob-inner" id="blob-inner">
+                        <div id="blob-close">
+                            <i class="fa-solid fa-hand-point-left"></i>
+                        </div>
+
+                        <div id="writeAbout">
+                            <div>
+                                <img src="TODAY(trans).png" alt="">
+                            </div>
+                            <h2>The Vision</h2>
+                            Today is a simulation game in which the land has a soul that must be nourished.
+                            Create online sandboxes called Islands, where you can forage, farm and create in single and co-operative play. Build your Island and help the world to thrive.
+                        </div>
+                    </div>
+                    
+                    <div class="inner-div">
+                        <div class="blob blob1">
+                            <img src="/TODAY(trans).png" alt="">
+                        </div>
+                        <h3>ABOUT</h3>
+
+                    </div>
+                </div>
+               </div>
+
+                <div class="opa2" id="opa2">
+                    <div class="box" id="box2">
+                        <div class="blob-inner" id="blob-inner2">
+                            <div id="blob-close2">
+                                <i class="fa-solid fa-hand-point-left"></i>
+                            </div>
+                                <div id="writeTeam">
+                                    <div class="heade">
+
+                                        <!-- <a href="#teamB1">
+
+                                            <div class="team-head"></div>
+                                        </a>
+                                        <a href="#teamB2">
+                                            
+                                            <div class="team-head"></div>
+                                        </a> <a href="#teamB3">
+
+                                            <div class="team-head"></div>                                
+                                        </a> <a href="#teamB4">
+
+                                            <div class="team-head"></div>
+                                        </a>
+                                        <a href="#teamB5">
+
+                                            <div class="team-head"></div>
+                                        </a> -->
+
+                                        <a href="#slide-1">MICHAEL O'CONNOR</a>
+                                        <a href="#slide-2">BENJAMIN CLEARY</a>
+                                        <a href="#slide-3">KEN WONG</a>
+                                        <a href="#slide-4">TIAGO LOUREIRO</a>
+                                        <a href="#slide-5">FILIPE DUARTE PINA</a>
+                                    
+
+                                    </div>
+
+
+                                    <div class="bode">
+
+                                        <div class="slides-team">
+                                            <div id="slide-1">
+                                                <h3> CEO / Co-Founder </h3>
+                                                <img src="https://images.squarespace-cdn.com/content/v1/63e3fc8766f8c65f76d0464a/88e8450b-683d-4a6a-8116-d2d917f7e067/Seed_13.png?format=300w" alt="">
+                                                Nintendo and SEGA games veteran. Director of award-winning interactive VR experience Glimpse.
+
+                                            </div>
+                                            <div id="slide-2">
+                                              <img src="https://images.squarespace-cdn.com/content/v1/63e3fc8766f8c65f76d0464a/3fe86b03-195e-41dd-86d9-746233ab2eaf/Seed_21.png?format=300w" alt="">
+                                              <h3>Creative Dir / Co-Founder </h3> <br>
+
+                                              Oscar winning writer-director of Golden Globe nominated Swan Song (2022) and Oscar winning Stutterer (2017).
+
+                                            </div>
+                                            <div id="slide-3">
+                                                <img src="https://images.squarespace-cdn.com/content/v1/63e3fc8766f8c65f76d0464a/aed4fce4-ada0-455c-ba4c-bfa849d6d10f/Seed_30.png?format=300w" alt="">
+                                                <h3>Game Designer </h3>
+                                                Designed and directed the game Monument Valley, which has sold 30+ million copies worldwide.
+                                            </div>
+                                            <div id="slide-4">
+                                                <img src="https://images.squarespace-cdn.com/content/v1/63e3fc8766f8c65f76d0464a/6f05b517-1651-4220-9a35-3a11ea0459e6/Seed_20.png?format=300w" alt="">
+                                                <h3>Technical Director </h3> <br>
+
+                                                Principal Engineer at Scopely (Stumble Guys). Tech Director at Multiplayer Guys (Call of Duty: MWII).
+
+
+                                              
+                                            </div>
+                                            <div id="slide-5">
+                                                <img src="https://images.squarespace-cdn.com/content/v1/63e3fc8766f8c65f76d0464a/710b9957-1669-4ced-a440-5e1303428f64/Seed_08.png?format=300w" alt="">
+                                                <h3>Senior Producer </h3>
+
+                                                Senior Producer of life simulation MMO, Avakin Life (200m registered users, 1m daily active users).
+                                            </div>
+                                          </div>
+                                    </div>
+                                </div>
+                            
+                        </div>
+    
+                        <div class="inner-div">
+                            <div class="blob blob2">
+                                <img src="/TODAY(tans2).png" alt="">
+                            </div>
+                            <h3>TEAM</h3>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            
+              <div class="roadmap" id="roadmap">
+                <img id="rmImg" class="rmImg" src="/Screenshot (565)cropped1.png" alt="">
+              </div>
+
+              <div class="bottomm" id="bottomm">
+                <div class="box down" id="down1">
+                    <h3>FEATURES <i class="fa-solid fa-map"></i></h3>
+                </div>
+                <div class="box down bad" id="down2">
+                    <h3>STORY <i class="fa-solid fa-book-open"></i></h3>
+                </div>
+              </div>
+            
+                
+
+                <div id="bottom-main">
+                    
+    <div class="hidden" id="hiddenDivv">
+        <div class="container">
+            <div class="row box">
+              <div class="col-md-6">
+                <p>Share this on Twitter.</p>
+                <form action="">
+                  <textarea  id="TA" cols="30" rows="5" class="form-control fs-5" placeholder=""></textarea>
+                  <div
+                    class="button d-flex justify-content-end align-items-center mt-2"
+                  >
+                    <span class="limit px-3 fs-4">80</span>
+                    <button class="btn btn-primary">Tweet</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+    </div>
+
+                    <div class="bottom-main" >
+
+                        <div class="row" id="roww1" title="tweet GM/GN">
+                            <img id="roww-img" class="gnPic" src="/gm.jpeg" alt="">
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-solid fa-plus" id="addTweet" title="compose tweet"></i>
+                        </div>
+                        <div class="row"></div>
+                        <div class="row"></div>
+                        <!-- <div id="row"></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-area">
+            <div class="right-head">
+                <i class="fa-solid fa-user" id="userSettings"></i>
+                <!-- <i class="fa-solid fa-gear"></i> -->
+                <!-- <i class="fa-solid fa-circle-info"></i> -->
+            </div>
+
+            <div id="profile-pic">
+                <div class="blue" id="blue">
+                    <img class="pfp" id="techCircle" src="/tech-circle.png" alt="">
+                    <div id="name-div"><span>-----</span></div>
+                </div>
+
+                <div class="right-middle">
+                    <div class="right-bars" id="rb1">
+                        <textarea name="" id="rb11" cols="30" rows="10"></textarea>
+                        <button id="submit">submit</button>
+                    </div>
+                    <div class="right-bars" id="rb2">
+                        <img id="imgx1" src="/TODAY4.jpeg" alt="">
+                    </div>
+                    <div class="right-bars" id="rb3">
+                        <img id="imgx2" src="/TODAY7.jpeg" alt="">
+                    </div>
+                    <div class="right-bars" id="rb4">
+                        <img id="imgx3" src="/TODAY3.jpeg" alt="">
+                    </div>
+                </div>
+
+                <div class="social-div" id="social-div">
+                    <a href="">
+                        <div class="social">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="social">
+                            <i class="fa-brands fa-discord"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="sneakArea" class="sneak-area">
+            <div class="inner-sneakArea">
+                <div id="x" class="x">
+                    <i class="fa-solid fa-close"></i>
+                </div>
+                <div class="slider">
+  
+                <a href="#slide-11">1</a>
+                <a href="#slide-21">2</a>
+                <a href="#slide-31">3</a>
+                <a href="#slide-41">4</a>
+                <a href="#slide-51">5</a>
+                <!-- <a href="#slide-6">6</a>
+                <a href="#slide-7">7</a> 
+                <a href="#slide-8">8</a> -->
+              
+                <div class="slides">
+                  <div id="slide-11">
+                    <img class="imageS" src="/TODAY8.png" alt="">
+                  </div>
+                  <div id="slide-21">
+                    <img class="imageS" src="/TODAY2.jpeg" alt="">
+                  </div>
+                  <div id="slide-31">
+                    <img class="imageS" src="/TODAY3.jpeg" alt="">
+                  </div>
+                  <div id="slide-41">
+                    <img class="imageS" src="/TODAY5.jpeg" alt="">
+                  </div>
+                  <div id="slide-51">
+                    <img class="imageS" src="/TODAY7.jpeg" alt="">
+                  </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
