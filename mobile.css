@@ -71,7 +71,12 @@
     
     }
 
-
+    ::-webkit-scrollbar{
+        width: 5px;
+        background-color: rgba(255, 255, 255, 0.493);
+        border-radius: 2px;
+        opacity: 0;
+    }
   
 
     #mobile-about{
@@ -250,7 +255,7 @@
         width: 100vw;
         height: 1vh;
         z-index: 10;
-        margin-top: 99vh;
+        margin-top: 94vh;
         background-color: #88888800;
         display: flex;
         /* align-items: center; */
