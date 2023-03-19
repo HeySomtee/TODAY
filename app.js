@@ -295,13 +295,13 @@ document.getElementById('box').addEventListener('click', () => {
 
 
 document.getElementById('box2').addEventListener('click', () => {
-    document.getElementById('blob-inner2').style.animationName = "slide-up";
+    document.getElementById('blob-inner2').style.animationName = "slide-upp";
     document.getElementById('opa1').style.display = 'none';
     document.getElementById('bottomm').style.opacity = '0'
     // document.getElementById('opa1').style.marginLeft = '40vw';
     document.getElementById('bottom-main').style.display = 'none'
     setTimeout(() => {
-        if (    document.getElementById('blob-inner2').style.animationName == "slide-up"
+        if (    document.getElementById('blob-inner2').style.animationName == "slide-upp"
         ) {
             document.getElementById("writeTeam").style.display = "block";
         }
@@ -610,7 +610,7 @@ function multiFunc(params) {
     utilIcon.style.animationName = "turn"
 }
 
-document.getElementById('flipbookF').addEventListener('click', () =>{
-    alert(' ')
-})
+// document.getElementById('flipbookF').addEventListener('click', () =>{
+//     alert(' ')
+// })
 

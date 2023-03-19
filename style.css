@@ -660,6 +660,29 @@ a{
     }
 }
 
+@keyframes slide-upp {
+    0%{
+        margin-top: 0vh;
+    }
+
+    50%{
+        width: 24vw;
+        margin-top: -35vh;
+        height: 20vh;
+        z-index: -1;
+        margin-left: 0vw;
+    }
+
+
+    100%{
+        margin-top: -35vh;
+        z-index: 200;    
+        width: 50.5vw;
+        margin-left: -13.5vw;
+        height: 85vh; 
+    }
+}
+
 /* @keyframes slide-up2 {
     0%{
         margin-top: 0vh;
